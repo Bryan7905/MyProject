@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-h$@i8sh9&1s$t-+y2$e=iet0z*+52b8#uoet#&ictzze3y1wcl
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['http://192.168.30.205:8000/', '192.168.30.205:8000', '192.168.30.205', 'https://peitel-backend-knbq.onrender.com', 'peitel-backend-knbq.onrender.com']
+ALLOWED_HOSTS = ['http://192.168.30.205:8000/', '192.168.30.205:8000', '192.168.30.205', 'https://myproject-q5hz.onrender.com', 'myproject-q5hz.onrender.com']
 
 
 # Application definition
@@ -129,5 +129,5 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://peitel-backend-knbq.onrender.com",
+    "https://myproject-q5hz.onrender.com",
 ]
