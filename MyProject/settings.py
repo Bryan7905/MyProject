@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-h$@i8sh9&1s$t-+y2$e=iet0z*+52b8#uoet#&ictzze3y1wcl
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['http://192.168.30.205:8000/', '192.168.30.205:8000', '192.168.30.205', 'https://myproject-q5hz.onrender.com', 'myproject-q5hz.onrender.com']
+ALLOWED_HOSTS = ['http://192.168.30.205:8000/', '192.168.30.205:8000', '192.168.30.205', 'https://myproject-q5hz.onrender.com', 'myproject-q5hz.onrender.com', 'http://127.0.0.1:8000/', '127.0.0.1:8000', '127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -61,7 +61,7 @@ ROOT_URLCONF = 'MyProject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / "MyProject" / "templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
